@@ -1,0 +1,45 @@
+<svg width="457" height="488" xmlns="http://www.w3.org/2000/svg">
+  <!-- Draw the I-beam structure -->
+  <!-- Top flange -->
+  <rect x="150" y="50" width="150" height="30" fill="none" stroke="black" />
+  <!-- Web -->
+  <rect x="215" y="80" width="20" height="300" fill="none" stroke="black" />
+  <!-- Bottom flange -->
+  <rect x="150" y="380" width="150" height="30" fill="none" stroke="black" />
+
+  <!-- Dimensions -->
+  <!-- d dimension -->
+  <line x1="140" y1="50" x2="140" y2="410" stroke="black" marker-end="url(#arrow)" marker-start="url(#arrow)" />
+  <text x="120" y="250" font-family="Arial" font-size="16">d</text>
+
+  <!-- bf dimension -->
+  <line x1="150" y1="420" x2="300" y2="420" stroke="black" marker-end="url(#arrow)" marker-start="url(#arrow)" />
+  <text x="210" y="440" font-family="Arial" font-size="16">bf</text>
+
+  <!-- tf dimension -->
+  <line x1="310" y1="50" x2="310" y2="80" stroke="black" marker-end="url(#arrow)" marker-start="url(#arrow)" />
+  <text x="320" y="70" font-family="Arial" font-size="16">tf</text>
+
+  <!-- tw dimension (horizontal label) -->
+  <line x1="215" y1="200" x2="235" y2="200" stroke="black" marker-end="url(#arrow)" marker-start="url(#arrow)" />
+  <text x="205" y="190" font-family="Arial" font-size="16" transform="rotate(0, 205, 190)">tw</text>
+
+  <!-- h dimension -->
+  <line x1="340" y1="80" x2="340" y2="380" stroke="black" marker-end="url(#arrow)" marker-start="url(#arrow)" />
+  <text x="350" y="230" font-family="Arial" font-size="16">h</text>
+
+ 
+
+  <!-- y and x axis -->
+  <line x1="225" y1="50" x2="225" y2="410" stroke="black" stroke-dasharray="5,5" />
+  <line x1="150" y1="230" x2="300" y2="230" stroke="black" stroke-dasharray="5,5" />
+  <text x="235" y="40" font-family="Arial" font-size="16">y</text>
+  <text x="310" y="230" font-family="Arial" font-size="16">x</text>
+
+  <!-- Arrow marker definition -->
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="5" refY="5" orient="auto">
+      <path d="M0,0 L10,5 L0,10 z" fill="black" />
+    </marker>
+  </defs>
+</svg>
